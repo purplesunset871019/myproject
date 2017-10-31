@@ -25,41 +25,7 @@ public class VariableTester {
     System.out.println("len," + len); 
     System.out.println(s.charAt(0)); 
 
-    System.out.println("player1 please enter your name");     
-    Scanner scanner = new Scanner(System.in);
-    String line1 = scanner.nextLine();
-    System.out.println("Hello,"+line1);
-	
-    System.out.println("Which number do you choose");
-    line1 = scanner.nextLine();
-    int number1 = Integer.parseInt(line1);
-    
-    System.out.println("player2 please enter your name");
-    Scanner scanner2 = new Scanner(System.in);
-    String line2 = scanner2.nextLine();
-    System.out.println("Hello,"+line2); 
-    
-    
-    player2=line2;
-    
-    System.out.println("Which number do you choose?");
-    line2 = scanner2.nextLine();
-    int number2 = Integer.parseInt(line2);
-        
-    if(number1 > number2)
-        {
-	    System.out.println(line1 +"win");
-        }
-  
-    else if(number1 < number2)
-        {
-	    System.out.println(line2 +"win");
-        }
-    else
-        {
-	    System.out.println("Draw");
-        }
-    
+
 	}
 
 }
