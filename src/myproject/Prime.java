@@ -1,7 +1,7 @@
 package myproject;
 
 
-public class Exercisefour {
+public class Prime {
 	public static void main(String[] args) {
 	
 	int i;
@@ -17,15 +17,9 @@ public class Exercisefour {
             	prime=false;
             	break;
 	    	}
-
-	    	if(prime)
-	    		System.out.print(i+"	");
 	    }
-    	
+	    	if(prime)
+	    		System.out.print(i+"	");    	
 	}
-
-	
-	
-	
 	}
 }
