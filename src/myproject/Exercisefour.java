@@ -7,8 +7,8 @@ public class Exercisefour {
 	
 	    System.out.println("Which number do yo choose？");     
 	    Scanner scanner = new Scanner(System.in);
-	    String number1 = scanner.nextLine();
-	    int number2 = Integer.parseInt(number1);
+	    String number = scanner.nextLine();
+	    int number2 = Integer.parseInt(number);
 	    
 		int a;
 		int b;
