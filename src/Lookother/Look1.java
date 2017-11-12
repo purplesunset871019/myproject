@@ -6,21 +6,45 @@ public class Look1 {
 
 		public static void main(String[] args)
 		{
-			Scanner scanner = new Scanner(System.in);
-			System.out.println("請輸入你想要的等腰三角形股長：");
-			String code = scanner.nextLine();
-			int h = Integer.parseInt(code);
-			for(int i=1;i<=h;i++)
-			{
-		        for(int j=1;j<=i;j++)
-				{
+			for(int i=1;i<=5;i++){
+				/*if( i<=1 ){
+					System.out.print("    ");
 					System.out.print("*");
+					System.out.println("    ");
 				}
-				if(i<h)
-				{
+				else if(i<=2){
+					System.out.print("   ");
+					System.out.print("***");
+					System.out.println("   ");
+				}
+				else if(i<=3){
+					System.out.print("  ");
+					System.out.print("*****");
+					System.out.println("  ");
+				}
+				else if(i<=4){
+					System.out.print(" ");
+					System.out.print("*******");
 					System.out.println(" ");
 				}
-				
+				else {
+					System.out.println("*********");
+				}
+				*/
+				for(int n=i+1;n<=5;n++){
+					System.out.print(" ");
+				}
+				for(int n=(2*i)-1;n>=1;n--){
+					System.out.print("*");
+				}
+				for(int n=i+1;n<=5;n++){
+					if(n<5){
+						System.out.print(" ");
+					}
+					else{
+						System.out.println(" ");
+					}
+				}
 			}
 		}
 }
