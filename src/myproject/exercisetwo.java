@@ -10,7 +10,7 @@ public class exercisetwo {
 	    
 	    for(a=1;a<=9;a++)
 	      {
-	        for(b=2;b<=5;b++)
+	        for(b=1;b<=9;b++)
 	        {
             if(a*b<10)
               {
