@@ -7,6 +7,8 @@ public class VariableTester {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
    
+		System.out.print(1);  
+		
         short e = 6 ;
         float f = 15.6f ;
         char g = 65 ;
