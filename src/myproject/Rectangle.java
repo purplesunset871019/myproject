@@ -2,10 +2,10 @@ package myproject;
 
 import java.util.*;
 
-public class Exercisefour {
+public class Rectangle {
 	public static void main(String[] args) {
-	
-	    System.out.println("Which number do yo choose？");     
+		
+	    System.out.println("Please enter a number:");     
 	    Scanner scanner = new Scanner(System.in);
 	    String number = scanner.nextLine();
 	    int number2 = Integer.parseInt(number);

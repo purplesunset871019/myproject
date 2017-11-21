@@ -2,7 +2,7 @@ package myproject;
 
 import java.util.*;
 
-public class exercisetwo {
+public class Multiplicationtable2 {
 	public static void main(String[] args) {
 
 	    int a;

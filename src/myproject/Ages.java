@@ -2,9 +2,11 @@ package myproject;
 
 import java.util.*;
 
-public class Exercisethree {
+import java.util.Scanner;
+
+public class Ages {
 	public static void main(String[] args) {
-	    System.out.println("以下誰的年紀最大？");     
+		System.out.println("以下誰的年紀最大？");     
 	    System.out.println("(1) 杰倫");     
 	    System.out.println("(2) 華宸宇");     
 	    System.out.println("(3) 梁朝偉");     

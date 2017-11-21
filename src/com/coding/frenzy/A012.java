@@ -82,14 +82,9 @@ public class A012 {
 
                 }
 			}
-			
-			
+						
 		}
-		
-		
-		
-		
-		
+				
 /*		for(d=2;d<=number2;d++)
 		{
 			if(number2%d==0)
@@ -124,18 +119,7 @@ public class A012 {
 			
 		}
 */		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 	}
 
 }
