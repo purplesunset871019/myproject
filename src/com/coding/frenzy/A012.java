@@ -1,3 +1,4 @@
+//(A012) 標準分解式 : 輸入一正整數N，輸出N的標準分解式。 
 package com.coding.frenzy;
 
 import java.util.Scanner;
