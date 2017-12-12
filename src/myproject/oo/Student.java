@@ -7,11 +7,17 @@ public class Student {
 		int chinese;
 		String name;
 		
-		public Student(String n,int e,int m,int c){
+		public Student(String n,int e,int m,int c)
+		{
 			name=n;
 			english=e;
 			math=m;
 			chinese=c;
+		}
+		
+		public Student(String n)
+		{
+		this.name =n;
 		}
 		
 		public void print()

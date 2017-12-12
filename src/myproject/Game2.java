@@ -6,11 +6,12 @@ public class Game2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.out.println("Please enter a number:");     
-		
+	
 	    int a;
+	    int hp=100;
 	    
+		System.out.println("hp"+"="+hp);     
+		
 		for(a=1;;a++)
 		{
 		    Scanner scanner = new Scanner(System.in);

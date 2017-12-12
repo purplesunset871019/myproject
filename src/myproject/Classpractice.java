@@ -6,6 +6,5 @@ public class Classpractice {
 
 	public static void main(String[] args) {
 
-
 	}
 }
