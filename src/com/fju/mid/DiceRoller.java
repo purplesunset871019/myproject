@@ -21,9 +21,9 @@ public class DiceRoller {
 	       
 	       for(a=1;;a++)
 	       {
-	           x1=ran.nextInt(5)+1;
-		       x2=ran.nextInt(5)+1;
-		       x3=ran.nextInt(5)+1;
+	           x1=ran.nextInt(6)+1;
+		       x2=ran.nextInt(6)+1;
+		       x3=ran.nextInt(6)+1;
 		    
 			   System.out.print(x1+" "); 
 			   System.out.print(x2+" "); 
