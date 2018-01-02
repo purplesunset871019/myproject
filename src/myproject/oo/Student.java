@@ -2,26 +2,35 @@ package myproject.oo;
 
 public class Student {
 
-		int english;
-		int math;
+		/*private*/public int english;
+		protected int math;
 		int chinese;
 		String name;
+		static int pass=60;
+		public Student(){
+			
+		}
 		
 		public Student(String n,int e,int m,int c)
 		{
-			name=n;
-			english=e;
-			math=m;
-			chinese=c;
+			this.name=n;
+			this.english=e;
+			this.math=m;
+			this.chinese=c;
 		}
 		
-		public Student(String n)
+		public Student(String name)
 		{
-		this.name =n;
+		this.name =name;
+		}
+		
+		public static void method(){
+			System.out.println("hello");
 		}
 		
 		public void print()
 		{
+			System.out.println(pass);
 			System.out.println(english+"\t"
 					+math+"\t"+chinese);
 		}

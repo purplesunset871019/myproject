@@ -4,14 +4,18 @@ public class Tester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student stu=new Student("王大明",75,88,65);
-		/*stu.english = 75;
-		stu.math=88;
-		stu.chinese=65;*/
+		Student stu1=new Student("王大明",75,88,65);
+		Student stu2=new Student("黃大維",77,99,40);
 		
-		int avg=stu.getadverage();
-		System.out.println(stu.name +":"+avg);
-		
+		stu1.pass=50;
+		stu1.print();
+		stu2.print();
+			
+		int avg=stu1.getadverage();
+		System.out.println(stu1.name +":"+avg);
+		Student.method();
+		GraduateStudent gstu=new GraduateStudent();
+		gstu.print();
 	}
 
 }
