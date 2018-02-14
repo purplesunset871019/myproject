@@ -1,3 +1,4 @@
+//輸入一個數字，輸出從1到該數字，並且每當遇到5的倍數時，在前面加#符號
 package com.fju.mid;
 
 import java.util.Scanner;
@@ -23,10 +24,10 @@ public class Numbers {
 			
 			System.out.print(a+" "); 
 			
-			if(a>=10)
+			/*if(a>=10)
 			{
 				break;
-			}
+			}*/
 		}
 			
 	}

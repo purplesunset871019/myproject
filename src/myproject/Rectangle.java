@@ -1,3 +1,4 @@
+//輸出5*5方陣，其中包含左上到右下之對角線往下為*，其餘為#
 package myproject;
 
 import java.util.*;

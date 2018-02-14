@@ -1,3 +1,4 @@
+//測試用
 package com.coding.frenzy;
 
 import java.util.Scanner;

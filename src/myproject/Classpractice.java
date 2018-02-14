@@ -1,3 +1,4 @@
+//課堂間練習
 package myproject;
 
 import java.util.Scanner;

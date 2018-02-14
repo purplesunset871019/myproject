@@ -1,3 +1,4 @@
+//販賣機
 package com.ibm;
 
 import java.util.Scanner;

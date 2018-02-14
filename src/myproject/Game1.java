@@ -1,37 +1,37 @@
+//兩使用者玩數字比大小遊戲
 package myproject;
 
 import java.util.*;
 
 public class Game1 {
 	public static void main(String[] args) {
-	    System.out.println("player1 please enter your name");     
+	    System.out.print("player1 please enter your name:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String line1 = scanner.nextLine();
-	    System.out.println("Hello,"+line1);
+	    String name1 = scanner.nextLine();
+	    System.out.println("Hello,"+name1);
 		
-	    System.out.println("Which number do you choose?");     
+	    System.out.print("Which number do you choose？");     
 	    Scanner scanner2 = new Scanner(System.in);
-	    String number1 = scanner2.nextLine();
-	    int number2 = Integer.parseInt(number1);
+	    int number1 = scanner2.nextInt();
 	    
-	    System.out.println("player2 please enter your name");
+	   	    
+	    System.out.print("player2 please enter your name:");
 	    Scanner scanner3= new Scanner(System.in);
-	    String line2 = scanner3.nextLine();
-	    System.out.println("Hello,"+line2); 
+	    String name2 = scanner3.nextLine();
+	    System.out.println("Hello,"+name2); 
 	    
-	    System.out.println("Which number do you choose?");     
+	    System.out.print("Which number do you choose？");     
 	    Scanner scanner4 = new Scanner(System.in);
-	    String number3 = scanner4.nextLine();
-	    int number4 = Integer.parseInt(number3);
-	        
-	    if(number2 > number4)
+	    int number2 = scanner4.nextInt();
+	  	        
+	    if(number1 > number2)
 	        {
-		    System.out.println(line1 +"win");
+		    System.out.println("Winner is "+name1);
 	        }
 	  
-	    else if(number2 < number4)
+	    else if(number1 < number2)
 	        {
-		    System.out.println(line2 +"win");
+		    System.out.println("Winner is "+name2);
 	        }
 	    else
 	        {

@@ -1,3 +1,4 @@
+//三個骰子，不斷骰直到出現任兩個一樣為止，並且輸出1-6出現的次數
 package com.fju.mid;
 
 import java.util.Random;

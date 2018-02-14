@@ -1,3 +1,4 @@
+//輸入一個1-9的數字，並隨機選出六個1-9的數字，如果六個數字中有根樹入的數字一樣的數字，就輸出Yes，反之則輸出No
 package com.fju.mid;
 
 import java.util.Random;

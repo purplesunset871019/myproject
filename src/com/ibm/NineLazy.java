@@ -1,3 +1,4 @@
+//九九乘法表
 package com.ibm;
 
 public class NineLazy {

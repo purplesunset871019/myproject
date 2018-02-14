@@ -1,3 +1,4 @@
+//本題概要是依照使用者給的層數來做出一個星號組成的等腰三角形
 package Practice;
 
 import java.util.Scanner;
@@ -6,7 +7,6 @@ public class Startriangle {
 	
 	public static void main(String[] args) {
 		
-	    System.out.println("本題概要是依照使用者給的層數來做出一個星號組成的等腰三角形。"); 
 		System.out.print("請選一個數字:");     
 	    Scanner scanner = new Scanner(System.in);
 	    String number1 = scanner.nextLine();

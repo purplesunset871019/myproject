@@ -1,3 +1,4 @@
+//隨機四個數字，從小排到大輸出
 package myproject;
 
 import java.util.Random;
