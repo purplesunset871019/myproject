@@ -9,15 +9,14 @@ public class Startriangle {
 		
 		System.out.print("請選一個數字:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String number1 = scanner.nextLine();
-	    System.out.println("以下是您要的圖形。"); 
-	    int number2 = Integer.parseInt(number1);		
+	    int number = scanner.nextInt();
+	    System.out.println("以下是您要的圖形。"); 	
 		  
 	    int a;
     	int b=1;
-        int c=number2-1;
+        int c=number-1;
         int e=1;
-		for(a=1;a<=number2;a++)
+		for(a=1;a<=number;a++)
 		{
 			int d=2*a-1;
 				

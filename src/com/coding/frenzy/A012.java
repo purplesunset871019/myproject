@@ -10,8 +10,7 @@ public class A012 {
 
 		System.out.print("Please enter a number:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String number1 = scanner.nextLine();
-	    int number2 = Integer.parseInt(number1);	
+	    int number = scanner.nextInt();
 				
 		int a;
 		int b;
@@ -19,30 +18,30 @@ public class A012 {
 		int d;
 		int e;
 	
-		for(e=2;e<=number2;e++)
+		for(e=2;e<=number;e++)
 		{
-			if(number2%e==0)
+			if(number%e==0)
 			{
 				break;
 			}
 		}
 		
-		if(e==number2)
+		if(e==number)
 		{
 			System.out.print(1+"*");  
 		}
 		
-		for(a=2;a<=number2;a++)
+		for(a=2;a<=number;a++)
 		{
-			/*for(e=2;e<=number2;e++)
+			/*for(e=2;e<=number;e++)
 			{
-				if(number2%e==0)
+				if(number%e==0)
 				{
 					break;
 				}
 			}
 			
-			if(e==number2)
+			if(e==number)
 			{
 				System.out.print(1+"*");  
 			}*/
@@ -63,9 +62,9 @@ public class A012 {
 		    	
 		    	for(b=1;;b++)
 			{
-				if(number2 % a ==0)
+				if(number % a ==0)
 				{
-				number2=number2/a;	
+				number=number/a;	
 				System.out.print(a);  
 				}
 				else
@@ -73,9 +72,9 @@ public class A012 {
 					break;
 				}
 				
-                for(c=a;c<=number2;c++)
+                for(c=a;c<=number;c++)
                 {
-                	if(number2%c==0)
+                	if(number%c==0)
                 	{
         				System.out.print("*");
         				break;
@@ -86,12 +85,12 @@ public class A012 {
 						
 		}
 				
-/*		for(d=2;d<=number2;d++)
+/*		for(d=2;d<=number;d++)
 		{
-			if(number2%d==0)
+			if(number%d==0)
 			{
 				System.out.print(d);  
-				number2=number2/d;
+				number=number/d;
 			}
 			else
 			{
@@ -100,13 +99,13 @@ public class A012 {
 		}
 		
 				
-		for(a=2;a<=number2;a++)
+		for(a=2;a<=number;a++)
 		{
 			for(b=1;;b++)
 			{
-				if(number2 % a ==0)
+				if(number % a ==0)
 				{
-				number2=number2/a;	
+				number=number/a;	
 				System.out.print("*"+a);  
 				}
 				else

@@ -9,13 +9,11 @@ public class Practice {
 		// TODO Auto-generated method stub
 		System.out.print("Please enter the month:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String Line1 = scanner.nextLine();
-	    int number1 = Integer.parseInt(Line1);	
+	    int number1 = scanner.nextInt();
 	    
 		System.out.print("Please enter the day:");     
 	    Scanner scanner2 = new Scanner(System.in);
-	    String Line2 = scanner2.nextLine();
-	    int number2 = Integer.parseInt(Line2);
+	    int number2 = scanner2.nextInt();
 	    
 	    int b;
 	    

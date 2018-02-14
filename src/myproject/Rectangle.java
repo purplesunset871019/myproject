@@ -8,17 +8,16 @@ public class Rectangle {
 		
 	    System.out.println("Please enter a number:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String number = scanner.nextLine();
-	    int number2 = Integer.parseInt(number);
+	    int number = scanner.nextInt();
 	    
 		int a;
 		int b;
 		int a2;
 		int b2;
 		
-		for(a=1;a<=number2;a++)
+		for(a=1;a<=number;a++)
 		  {
-			b=number2-a;
+			b=number-a;
 			
 			for(a2=1;a2<=a;a2++)
 			{            	

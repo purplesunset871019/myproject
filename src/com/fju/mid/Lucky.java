@@ -1,4 +1,4 @@
-//輸入一個1-9的數字，並隨機選出六個1-9的數字，如果六個數字中有根樹入的數字一樣的數字，就輸出Yes，反之則輸出No
+//輸入一個1-9的數字，並隨機選出六個1-9的數字，如果六個數字中有和輸入的數字一樣的數字，就輸出Yes，反之則輸出No
 package com.fju.mid;
 
 import java.util.Random;
@@ -12,8 +12,8 @@ public class Lucky {
 			
 			System.out.print("Please enter a number:");     
 		    Scanner scanner = new Scanner(System.in);
-		    String number1 = scanner.nextLine();
-		    int number2 = Integer.parseInt(number1);	  
+		    int number = scanner.nextInt();
+  
 	     int x1;
 	     int x2;	    
 	     int x3;	
@@ -37,7 +37,7 @@ public class Lucky {
 			
 			System.out.println(); 
 			
-		    if(x1==number2 ||x2==number2||x3==number2||x4==number2||x5==number2||x6==number2)
+		    if(x1==number ||x2==number||x3==number||x4==number||x5==number||x6==number)
 		    {
 				System.out.print("Yes"); 
 		    }

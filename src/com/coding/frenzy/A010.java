@@ -14,8 +14,7 @@ public class A010 {
 	
 	System.out.print("Please enter a number:");     
 	Scanner scanner = new Scanner(System.in);
-	String number1 = scanner.nextLine();
-	int n = Integer.parseInt(number1);	
+    int number = scanner.nextInt();
 		
 	int a;
 	int b;
@@ -23,11 +22,11 @@ public class A010 {
     int p;
     int m=1;
 	
-	for(a=1;a<n;a++)
+	for(a=1;a<number;a++)
 	{
-		for(b=a+1;b<n;b++)
+		for(b=a+1;b<number;b++)
 		{
-			for(c=b+1;c<n;c++)
+			for(c=b+1;c<number;c++)
 			{
 				for(p=1;p<=a;p++)
 				{

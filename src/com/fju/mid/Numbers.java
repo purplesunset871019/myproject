@@ -10,12 +10,12 @@ public class Numbers {
 		
 		System.out.print("Please enter a number:");     
 	    Scanner scanner = new Scanner(System.in);
-	    String number1 = scanner.nextLine();
-	    int number2 = Integer.parseInt(number1);	
+	    int number = scanner.nextInt();
+
 		
 	    int a=1;
 	    
-		for(a=1;a<=number2;a++)
+		for(a=1;a<=number;a++)
 		{
 			if(a%5==0)
 			{

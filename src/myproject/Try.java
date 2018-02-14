@@ -1,3 +1,4 @@
+//測試用
 package myproject;
 
 import java.util.Random; 
