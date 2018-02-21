@@ -14,7 +14,7 @@ public class VendingMachine {
 		
 		int total=0;
 		int a;
-
+		
 		
 		for(a=1;;a++)			
 		{
@@ -51,7 +51,7 @@ public class VendingMachine {
 			    	break;
 			    case "b":
 			    	if(total>=20)
-			    	{
+			        {
 				    	total=total-20;
 				    	System.out.println("DON!");
 			    	}
@@ -78,7 +78,7 @@ public class VendingMachine {
 			    	break;
 			    }
 
-			if(leave)
+			if(leave==false)
 			{
 				break;
 			}

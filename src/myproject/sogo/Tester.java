@@ -25,9 +25,9 @@ public class Tester {
 			c.print();
 		}
 		
-		//Customer c1= new Customer(1000);
+		Customer c1= new Customer(1000);
 		c1.print();
-		//SliverCustomer c2=new SliverCustomer(1000);
+		SliverCustomer c2=new SliverCustomer(1000);
 		c2.print();
 		
 	}

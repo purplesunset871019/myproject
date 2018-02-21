@@ -1,6 +1,6 @@
 package myproject.sogo;
 
-public class GoldCustomer extends Customer{
+public class GoldCustomer extends SliverCustomer{
 	
 	public GoldCustomer(int amount)
 	{
