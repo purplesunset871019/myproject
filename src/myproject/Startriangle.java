@@ -1,5 +1,5 @@
 //本題概要是依照使用者給的層數來做出一個星號組成的等腰三角形
-package Practice;
+package myproject;
 
 import java.util.Scanner;
 
