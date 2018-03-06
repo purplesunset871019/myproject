@@ -1,39 +1,25 @@
 package com.java2.object;
 
-public class Patient extends Nurse{
+public class Patient{
 	
-
-	public Patient()
-	{
-		System.out.println();
-		this.Doctor=Doctor;
-		this.Patient=Patient;
-		this.id=id;
-	}
-	
-	public  void Medicalrecords()
-	{
-		Doctor Tim =new Doctor();
-		Doctor Ann =new Doctor();
+	 String Patientname;
+	 String IDcardnumber;
+	 String sex;
+	 int weight;
+	 int height;
 		
-		Patient Harry =new Patient();
-		Patient Eric = new Patient();
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
+	public Patient(String Patientname,String IDcardnumber,String sex,int weight,int height)
+	 {
+		 this.Patientname=Patientname;
+		 this.IDcardnumber=IDcardnumber;
+		 this.sex=sex;
+		 this.weight=weight;
+		 this.height=height;
+	 }
+	 public void PatientIdentity()
+	 {
+		 System.out.println("病人資料");
+		 System.out.println("名字："+Patientname+"	"+"身分證字號："+IDcardnumber);
+		 System.out.println("性別："+sex+"	"+"體重："+weight+"kg"+"	"+"身高："+height+"cm");
+	 }
 }
