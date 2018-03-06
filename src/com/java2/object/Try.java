@@ -1,5 +1,5 @@
 //測試用
-package myproject;
+package com.java2.object;
 
 import java.util.Random; 
 

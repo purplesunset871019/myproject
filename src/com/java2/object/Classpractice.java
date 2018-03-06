@@ -1,5 +1,5 @@
 //課堂間練習
-package myproject;
+package com.java2.object;
 
 import java.util.Scanner;
 
