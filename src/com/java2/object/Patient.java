@@ -21,5 +21,6 @@ public class Patient{
 		 System.out.println("病人資料");
 		 System.out.println("名字："+Patientname+"	"+"身分證字號："+IDcardnumber);
 		 System.out.println("性別："+sex+"	"+"體重："+weight+"kg"+"	"+"身高："+height+"cm");
+	    // System.out.println(Pa1);
 	 }
 }

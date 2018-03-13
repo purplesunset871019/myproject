@@ -8,7 +8,7 @@ public class ICU extends Doctor{
 	private int GCSv;
 	private int GCSm;
 	
-	Patient Pa1=new Patient()
+	//Patient Pa1=new Patient();
 	
 	
 	

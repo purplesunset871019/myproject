@@ -11,11 +11,15 @@ public class Doctor {
 	 int height;
 	 
      Patient Pa1=new Patient("Tim","F123456789","男",78,183);
-	
+	 public void PatientIdentity()
+	 {
 	 System.out.println("Pa1");
-	
-	
-	
-	
-	
+	 }
+	 
+	 //Emergency Pa1_em = new Emergency();
+	 
+	 
+	 
+	 
+	 
 }
