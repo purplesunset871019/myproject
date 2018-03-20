@@ -4,9 +4,9 @@ public class Doctor {
 	
 	 String Doctor;
 	 String Patientname;
-	 String IDcardnumber;
+	 String IDcardnumber;//身分證號碼
 	 String sex;
-	 String Etiology;
+	 String Etiology;//病因
 	 int weight;
 	 int height;
 	 
@@ -16,7 +16,7 @@ public class Doctor {
 	 System.out.println("Pa1");
 	 }
 	 
-	 //Emergency Pa1_em = new Emergency();
+	 Emergency Pa1_em = new Emergency();
 	 
 	 
 	 
