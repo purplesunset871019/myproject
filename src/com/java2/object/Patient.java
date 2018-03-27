@@ -23,4 +23,9 @@ public class Patient{
 		 System.out.println("性別："+sex+"	"+"體重："+weight+"kg"+"	"+"身高："+height+"cm");
 	     System.out.println(Pa1);
 	 }
+	 public void basicInformation(float bodytemperature,int bloodpressure,int pulse )
+	 {
+
+	 }
+	 
 }

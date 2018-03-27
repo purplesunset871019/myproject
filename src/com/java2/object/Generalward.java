@@ -7,7 +7,10 @@ public class Generalward extends ICU{
 	String bloodpressure;//血壓
 	String pulse;//脈搏
 	
-	
+	public void basicInformation(37.3,)
+	{
+		
+	}
 	
 	
 }
