@@ -1,27 +1,23 @@
 package Lookother;
-
+import java.util.Random;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.*;
 public class Look1 {
 
-
-
-	 
-	  public static void main(String[] args){
-	  ArrayList<String>  fruit = new ArrayList<String>();
-
-	  fruit.add("Apple");
-	  fruit.add("Banana");
-	  fruit.add("group");
-
-	  String desired= "Coconut";
-	  fruit.set(2,desired);
-
-	  int num=fruit.size();
-
-	  for(int i=0;i<num;i++)
-	  System.out.println(fruit.get(i));
-	  System.out.println(num);
-	  }
+	
+	Random random = new Random();
+	public static ArrayList<String> cards = new ArrayList<>(); 
+	public static String flowers = "SHDC";
+	public  void poker(){
+		for (int i = 0;i< flowers.length();i++){
+			for (int j = 1;j <= 13; j++){
+				cards.add(flowers.charAt(j)+"i");
+			}
+		}
+	}
+	public  static ArrayList<String> ReturnPoker() {
+		return cards;
+	}
 
 }
