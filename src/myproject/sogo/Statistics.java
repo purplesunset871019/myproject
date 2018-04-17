@@ -21,7 +21,7 @@ public class Statistics {
 		
 		Customer c1= new Customer(1004);
 		c1.print();
-		SliverCustomer c2=new SliverCustomer(1004);
+		SilverCustomer c2=new SilverCustomer(1004);
 		c2.print();
 	    GoldCustomer c3=new GoldCustomer(1004);
 		c3.print();
