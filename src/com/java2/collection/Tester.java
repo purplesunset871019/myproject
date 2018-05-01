@@ -28,7 +28,7 @@ public class Tester {
 		set.add(6);
 		System.out.println(set);
 		Set<Float> set2 = new HashSet<>();
-		set2.add(4.2);
+		set2.add(4.2654);
 		set2.add(4);
 		set2.add(1);
 		set2.add(8);
