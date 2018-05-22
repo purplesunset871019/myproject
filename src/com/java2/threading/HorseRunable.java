@@ -1,6 +1,6 @@
 package com.java2.threading;
 
-public class HorseRunable  extends Thread{
+public class HorseRunable  extends Thread implements Runnable{
 	
 	@Override
 	public void run(){

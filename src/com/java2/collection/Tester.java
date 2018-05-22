@@ -27,13 +27,13 @@ public class Tester {
 		set.add(4);
 		set.add(6);
 		System.out.println(set);
-		Set<Float> set2 = new HashSet<>();
+		Set<Double> set2 = new HashSet<>();
 		set2.add(4.2654);
-		set2.add(4);
-		set2.add(1);
-		set2.add(8);
-		set2.add(4);
-		set2.add(6);
+		set2.add(6.55);
+		set2.add(1.763);
+		set2.add(8.576981);
+		set2.add(4.4864);
+		set2.add(6.49863);
 		System.out.println(set2);
 		
 		Map<String,String> stocks=new TreeMap<>();
