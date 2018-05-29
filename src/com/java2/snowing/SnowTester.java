@@ -19,7 +19,7 @@ public class SnowTester extends Thread{
 		List<Snow> snows = new ArrayList<>();
 		for(int i=0;i<100;i++)
 		{
-			Snow snow = new Snow();
+			Snow snow = new Snow(null);
 			snow.start();
 			snows.add(snow);
 		}
