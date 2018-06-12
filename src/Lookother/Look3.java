@@ -1,40 +1,35 @@
 package Lookother;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.*;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Look3 {
 
-	
-	
-	
-	Random random = new Random();
-	int[] cards = new int[52];
-	String flowers = "SHDC";
-	public Look3() {
-		for (int i = 0; i < cards.length; i++) {
-			cards[i] = i;
-			System.out.println((i % 13) + 1 + "" + (flowers.charAt(i / 13)));
-		}
-	}
-	
-	public void shuffle(){
-		for (int i=0; i<cards.length; i++){
-			int r =random.nextInt(52);
-//			cards[i] <-> cards[r]
-			int temp = cards[i];
-			cards[i] = cards[r];
-			cards[r] = temp;
-		}
-	}
-	
-	public void show(){
-		for (int i=0; i<cards.length; i++){
-			int c = cards[i];
-			System.out.print((c%13)+1 + "" + (flowers.charAt(c/13)) + " ");
-			if (i%13==0){
-				System.out.println();
+	public static void main(String[] args) {
+		Look3 vm = new Look3();
+		FileReader fr;
+		try {
+			fr = new FileReader("vending.txt");
+			BufferedReader in = new BufferedReader(fr);
+			String line = in.readLine();
+			String[] tokens = line.split(",");
+			int count = Integer.parseInt(tokens[0]);
+			for (int i = 0; i < count; i++){
+				String name = tokens[i*2+1];
+				int price = Integer.parseInt(tokens[i*2+2]);
+				vm.drinks.add(new Look2(i+1, name, price));
 			}
+			vm.on();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		
 	}
 }

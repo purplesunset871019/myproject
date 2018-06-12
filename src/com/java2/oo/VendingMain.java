@@ -4,33 +4,37 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.FileNotFoundException;
 
 public class VendingMain {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		VendingMachine vm = new VendingMachine();
-		FileReader fr;
-		try{
-			FileInputStream fis = new FileInputStream("vending.txt");
-			fr = new FileReader("vending.txt");
-			BufferedReader in = new BufferedReader(fr);
+		try {
+			FileInputStream fis = new FileInputStream("drinks.txt");
+			InputStreamReader isr = new InputStreamReader(fis);
+			BufferedReader in = new BufferedReader(isr);
 			String line = in.readLine();
-			String[] tokens = line.split(",");
-			int count = Integer.parseInt(tokens[0]);
-			for(int i=0; i < count;i++){
-				String name = tokens[i*2+1];
-				int price = Integer.parseInt(tokens[i*2+2]);
-				vm.drinks.add(new Drink(i+1, name, price));
+			while(line!= null){
+				String[] tokens = line.split(",");
+				int count = Integer.parseInt(tokens[0]);//飲料種類數量
+				for (int i = 0; i < count; i++){
+					String name = tokens[i*2+1];
+					int price = Integer.parseInt(tokens[i*2+2]);
+					vm.drinks.add(new Drink(i+1, name, price));
+				}
+				vm.on();
+		//System.out.println(123);
+		line = in.readLine();
 			}
-			vm.on();
-		}catch (Exception e) {
-			// TODO: handle exception
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
-		
 		
 	}
 
